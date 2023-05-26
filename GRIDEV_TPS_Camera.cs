@@ -2,8 +2,8 @@
 //created by grigamedevelopment.com.tr
 //BURAK KARADAG / karadagburak1881@gmail.com
 //-----------------------------------------
-//ADD INSIDE YOUR SCRIPT
 
+//ADD INSIDE YOUR METHOD
 if (verticalMovement == 0 && horizontalMovement == 0)
 {
     _playerRotationTimeValue += 4f * Time.deltaTime;
@@ -60,3 +60,5 @@ else if (verticalMovement != 0 || horizontalMovement != 0)
     _canRotate = false;
     _playerRotationTimeValue = 0;
 }
+
+//---THEN CONNECT WITH YOUR SYSTEM---\\
